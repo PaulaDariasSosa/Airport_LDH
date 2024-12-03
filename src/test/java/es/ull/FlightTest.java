@@ -1,4 +1,4 @@
-package test.java.es.ull.flights;
+package test.java.es.ull;
 
 import main.java.es.ull.flights.Flight;
 import main.java.es.ull.passengers.Passenger;
