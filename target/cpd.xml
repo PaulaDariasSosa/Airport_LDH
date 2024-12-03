@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.3.0"
+         timestamp="2024-12-03T16:50:11.2433921Z"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\src\main\java\es\ull\flights\Flight.java"
+         totalNumberOfTokens="174"/>
+   <file path="C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\src\main\java\es\ull\passengers\Passenger.java"
+         totalNumberOfTokens="221"/>
+</pmd-cpd>

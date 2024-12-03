@@ -18,14 +18,14 @@
  *
  * ========================================================================
  */
-package es.ull.flights;
+package main.java.es.ull.flights;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import es.ull.passengers.Passenger;
+import main.java.es.ull.passengers.Passenger;
 
 public class Flight {
 
