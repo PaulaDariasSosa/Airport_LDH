@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.es.ull.flights.FlightTest" time="0.195" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.es.ull.flights.FlightTest" time="0.187" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sonar.login" value="3c241b5f3b0260a2ba0600f5cc126b94091dc7ef"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\target\test-classes;C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\target\classes;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pmdso\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pmdso\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -15,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\pmdso\AppData\Local\Temp\surefire3665666962840016339\surefirebooter-20241203183442051_3.jar C:\Users\pmdso\AppData\Local\Temp\surefire3665666962840016339 2024-12-03T18-34-41_308-jvmRun1 surefire-20241203183442051_1tmp surefire_0-20241203183442051_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pmdso\AppData\Local\Temp\surefire11783537751155457175\surefirebooter-20241203191936875_3.jar C:\Users\pmdso\AppData\Local\Temp\surefire11783537751155457175 2024-12-03T19-19-36_149-jvmRun1 surefire-20241203191936875_1tmp surefire_0-20241203191936875_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\target\test-classes;C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\target\classes;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pmdso\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pmdso\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pmdso\AppData\Local\Temp\surefire3665666962840016339\surefirebooter-20241203183442051_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pmdso\AppData\Local\Temp\surefire11783537751155457175\surefirebooter-20241203191936875_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -47,9 +48,10 @@
     <property name="user.dir" value="C:\Users\pmdso\OneDrive\Practicas\Aeropuerto"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sonar.organization" value="ldhequipopacman"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="sonar.projectKey" value="PaulaDariasSosa_Airport_LDHmvn"/>
+    <property name="sonar.projectKey" value="PaulaDariasSosa_Airport_LDH"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.12\bin;C:\Program Files\doxygen\bin;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\AutoFirma\AutoFirma;C:\Users\pmdso\AppData\Local\Programs\Python\Launcher\;C:\Users\pmdso\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.3\bin;;C:\Users\pmdso\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-17.0.12\bin;C:\Users\pmdso\Downloads\sonar-scanner-6.2.1.4610-windows-x64\bin;C:\Users\pmdso\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\pmdso\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -57,14 +59,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testInvalidFlightNumberThrowsException" classname="test.java.es.ull.flights.FlightTest" time="0.093"/>
+  <testcase name="testInvalidFlightNumberThrowsException" classname="test.java.es.ull.flights.FlightTest" time="0.079"/>
   <testcase name="testValidFlightCreation" classname="test.java.es.ull.flights.FlightTest" time="0.005"/>
-  <testcase name="testAddPassengerExceedsSeats" classname="test.java.es.ull.flights.FlightTest" time="0.004"/>
+  <testcase name="testAddPassengerExceedsSeats" classname="test.java.es.ull.flights.FlightTest" time="0.005"/>
   <testcase name="testAddPassengerSuccess" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
   <testcase name="testRemovePassengerNotInFlight" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
-  <testcase name="testFlightNumberValidation" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
-  <testcase name="testRemovePassengerSuccess" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
-  <testcase name="testFlightToString" classname="test.java.es.ull.flights.FlightTest" time="0.018"/>
-  <testcase name="testPassengerListDoesNotContainDuplicates" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
+  <testcase name="testFlightNumberValidation" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
+  <testcase name="testRemovePassengerSuccess" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
+  <testcase name="testFlightToString" classname="test.java.es.ull.flights.FlightTest" time="0.015"/>
+  <testcase name="testPassengerListDoesNotContainDuplicates" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
   <testcase name="testPassengerSwitchFlights" classname="test.java.es.ull.flights.FlightTest" time="0.001"/>
 </testsuite>

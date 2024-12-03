@@ -1,1 +1,3 @@
 test\java\es\ull\flights\FlightTest.class
+test\java\es\ull\flightspassengers\FlightPassengerIntegrationTest.class
+test\java\es\ull\passengers\PassengerTest.class
