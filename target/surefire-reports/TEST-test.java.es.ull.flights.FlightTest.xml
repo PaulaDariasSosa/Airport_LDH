@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\pmdso\AppData\Local\Temp\surefire8966991362317094257\surefirebooter-20241203174928430_3.jar C:\Users\pmdso\AppData\Local\Temp\surefire8966991362317094257 2024-12-03T17-49-27_961-jvmRun1 surefire-20241203174928430_1tmp surefire_0-20241203174928430_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pmdso\AppData\Local\Temp\surefire13321672476470874876\surefirebooter-20241203175244518_3.jar C:\Users\pmdso\AppData\Local\Temp\surefire13321672476470874876 2024-12-03T17-52-44_283-jvmRun1 surefire-20241203175244518_1tmp surefire_0-20241203175244518_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\target\test-classes;C:\Users\pmdso\OneDrive\Practicas\Aeropuerto\target\classes;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pmdso\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pmdso\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\pmdso\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pmdso\AppData\Local\Temp\surefire8966991362317094257\surefirebooter-20241203174928430_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pmdso\AppData\Local\Temp\surefire13321672476470874876\surefirebooter-20241203175244518_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,14 +56,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testInvalidFlightNumberThrowsException" classname="test.java.es.ull.flights.FlightTest" time="0.056"/>
+  <testcase name="testInvalidFlightNumberThrowsException" classname="test.java.es.ull.flights.FlightTest" time="0.057"/>
   <testcase name="testValidFlightCreation" classname="test.java.es.ull.flights.FlightTest" time="0.004"/>
-  <testcase name="testAddPassengerExceedsSeats" classname="test.java.es.ull.flights.FlightTest" time="0.005"/>
-  <testcase name="testAddPassengerSuccess" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
-  <testcase name="testRemovePassengerNotInFlight" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
-  <testcase name="testFlightNumberValidation" classname="test.java.es.ull.flights.FlightTest" time="0.004"/>
+  <testcase name="testAddPassengerExceedsSeats" classname="test.java.es.ull.flights.FlightTest" time="0.004"/>
+  <testcase name="testAddPassengerSuccess" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
+  <testcase name="testRemovePassengerNotInFlight" classname="test.java.es.ull.flights.FlightTest" time="0.004"/>
+  <testcase name="testFlightNumberValidation" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
   <testcase name="testRemovePassengerSuccess" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
   <testcase name="testFlightToString" classname="test.java.es.ull.flights.FlightTest" time="0.018"/>
-  <testcase name="testPassengerListDoesNotContainDuplicates" classname="test.java.es.ull.flights.FlightTest" time="0.003"/>
+  <testcase name="testPassengerListDoesNotContainDuplicates" classname="test.java.es.ull.flights.FlightTest" time="0.002"/>
   <testcase name="testPassengerSwitchFlights" classname="test.java.es.ull.flights.FlightTest" time="0.001"/>
 </testsuite>
