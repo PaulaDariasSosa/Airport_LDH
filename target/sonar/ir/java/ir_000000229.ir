@@ -1,0 +1,10 @@
+
+S
+getNumberOfPassengers8main.java.es.ull.flights.Flight#getNumberOfPassengers()I 53this4 4($"main.java.es.ull.flights.Flight3this4 4($"main.java.es.ull.flights.Flight"¡R
+P
+5 5("0
+#get-field# passengers#get-field# passengers*2java.util.Set;
+9
+5 5( "!
+sizejava.util.Set#size()I (*2int8
+5 5(!*UC:/Users/pmdso/OneDrive/Practicas/Aeropuerto/src/main/java/es/ull/flights/Flight.java

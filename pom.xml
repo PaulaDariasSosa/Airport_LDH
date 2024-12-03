@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>es.ull</groupId>
-    <artifactId>ch13-continuous</artifactId>
+    <artifactId>Practica7</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <name>ch13-continuous</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco-coverage/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <sonar.projectKey>PaulaDariasSosa_Airport_LDH</sonar.projectKey>
         <sonar.organization>ldhequipopacman</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
@@ -23,11 +19,9 @@
     <build>
         <plugins>
             <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>17</source>
-                    <target>17</target>
-                </configuration>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
             </plugin>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
@@ -41,10 +35,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M7</version>
-            </plugin><plugin>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>3.4.2</version>
-        </plugin>
+            </plugin>
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+            </plugin>
             <plugin>
                 <artifactId>maven-install-plugin</artifactId>
                 <version>3.1.2</version>
@@ -80,30 +75,17 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.9.1.2184</version>
-            </plugin>
         </plugins>
     </build>
 
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.6.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <version>5.6.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 
     <reporting>
     <plugins>

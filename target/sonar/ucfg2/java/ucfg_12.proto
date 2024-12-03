@@ -1,0 +1,37 @@
+
+Ymain.java.es.ull.flights.Flight#removePassenger(Lmain/java/es/ull/passengers/Passenger;)Z_
+UC:/Users/pmdso/OneDrive/Practicas/Aeropuerto/src/main/java/es/ull/flights/Flight.java@ @(""1*›
+1A A(’
+A A(!
+
+%0void"Smain.java.es.ull.passengers.Passenger#setFlight(Lmain/java/es/ull/flights/Flight;)V*P
+
+__unknown_file (4
+2
+	passenger%main.java.es.ull.passengers.Passenger*"
+
+__unknown_file (
+""2,setFlight(Lmain/java/es/ull/flights/Flight;)x
+v
+B B(
+%1java.util.Set"__id*O
+
+__unknown_file (3*1!
+main.java.es.ull.flights.Flight"
+
+passengersèå
+B B(+
+%2boolean")java.util.Set#remove(Ljava/lang/Object;)Z*1
+
+__unknown_file (
+
+%1java.util.Set*P
+
+__unknown_file (4
+2
+	passenger%main.java.es.ull.passengers.Passenger2remove(Ljava/lang/Object;)"
+B B(,
+"":>
+@# @(62
+	passenger%main.java.es.ull.passengers.PassengerB#!
+main.java.es.ull.flights.FlightHX

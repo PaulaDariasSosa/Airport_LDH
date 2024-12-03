@@ -1,0 +1,7 @@
+main.java.es.ull.passengers.Passenger#toString()Ljava/lang/String;
+false
+0b3913c8b92871f549123f65d46418de
+==
+getCountryCode main.java.es.ull.passengers.Passenger#getCountryCode()Ljava/lang/String;
+getIdentifier main.java.es.ull.passengers.Passenger#getIdentifier()Ljava/lang/String;
+getName main.java.es.ull.passengers.Passenger#getName()Ljava/lang/String;
